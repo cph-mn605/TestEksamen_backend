@@ -15,6 +15,7 @@ public class MovieFacade {
 
     public MovieFacade() {
     }
+    
 
     public static MovieFacade getMovieFacade(EntityManagerFactory _emf) {
         if (instance == null) {
